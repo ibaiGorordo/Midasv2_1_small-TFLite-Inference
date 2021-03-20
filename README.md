@@ -5,15 +5,12 @@
 
 # Requirements
 
- * **OpenCV**, **Numpy** and **tensorflow 2**. **pafy** and **youtube-dl** are required for youtube video inference. 
+ * **OpenCV**, **Numpy** and **tflite (or tensorflow)**. **pafy** and **youtube-dl** are required for youtube video inference. 
  
 # Installation
 ```
-conda create -n midasInference python=3.8 -y
-conda activate midasInference
-conda install numpy opencv tensorflow -y
+pip install numpy python-opencv tflite
 pip install pafy youtube-dl
-
 ```
 
 # Midas v2.1 small ([link](https://tfhub.dev/intel/lite-model/midas/v2_1_small/1/lite/1))
