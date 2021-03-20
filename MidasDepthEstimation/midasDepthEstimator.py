@@ -1,9 +1,13 @@
 import time
 import cv2
 import numpy as np
-import tensorflow as tf
 import urllib.request
 import os.path
+
+try:
+    from tflite_runtime.interpreter import Interpreter
+except:
+    from tensorflow.lite.python.interpreter import Interpreter
 
 class midasDepthEstimator():
 
@@ -24,7 +28,7 @@ class midasDepthEstimator():
 		 	url = 'https://tfhub.dev/intel/lite-model/midas/v2_1_small/1/lite/1?lite-format=tflite'
 		 	urllib.request.urlretrieve(url, modelPath)
 
-		self.interpreter = tf.lite.Interpreter(model_path=modelPath)
+		self.interpreter = Interpreter(model_path=modelPath)
 		self.interpreter.allocate_tensors()
 
 		# Get model info
