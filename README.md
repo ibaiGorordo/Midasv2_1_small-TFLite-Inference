@@ -9,7 +9,7 @@
  
 # Installation
 ```
-pip install numpy python-opencv tflite
+pip install numpy opencv-python tflite
 pip install pafy youtube-dl
 ```
 
