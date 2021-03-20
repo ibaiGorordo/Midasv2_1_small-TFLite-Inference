@@ -42,7 +42,7 @@ pip install pafy youtube-dl
  python videoDepthEstimation.py
  ```
  
- ## [Inference video Example](https://tfhub.dev/intel/lite-model/midas/v2_1_small/1/lite/1)
+ ## [Inference video Example](https://youtu.be/e161_lZps9c)
  ![!Midas v2.1 small TFLite Inference on video](https://github.com/ibaiGorordo/Midasv2_1_small-TFLite-Inference/blob/main/doc/img/Midasv2_1_small-TFLite-InferenceVideo.gif)
  
  Original video: https://youtu.be/TGadVbd-C-E (by Nagasaki Biopark)
