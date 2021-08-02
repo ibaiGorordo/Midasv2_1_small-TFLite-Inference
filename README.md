@@ -40,7 +40,7 @@ pip install pafy youtube-dl
  ```
  
  # [Inference video Example](https://youtu.be/e161_lZps9c)
- ![!Midas v2.1 small TFLite Inference on video](https://github.com/ibaiGorordo/Ultrafast-Lane-Detection-Inference-Pytorch-/blob/main/doc/img/laneDetection.gif)
+ ![!Midas v2.1 small TFLite Inference on video](https://github.com/ibaiGorordo/Midasv2_1_small-TFLite-Inference/blob/main/doc/img/Midasv2_1_small-TFLite-InferenceVideo.gif)
  
  Original video: https://youtu.be/TGadVbd-C-E (by Nagasaki Biopark)
  
